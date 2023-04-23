@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+import { test, expect  } from '@playwright/test';
 import { faker } from '@faker-js/faker';
 
 const randomItem = faker.random.alpha(10)
