@@ -29,3 +29,10 @@ This is a Playwright API testing framework designed to demonstrate playwright ap
 
 ## How to view default Playwright HTML report
 * Go to the Project root directory: `./playwright-report/index.html`
+
+## To get the Playwright HTML report from terminal
+* Go to the Project root directory and run command: `npx playwright show-report`
+
+### Improvements planned
+* Write re-usable functions for GET, POST and PUT methods (create payload with dynamic values), verifications
+* Create a environment file to maintain the baseurl for diff environments and other few common fields
