@@ -36,3 +36,6 @@ This is a Playwright API testing framework designed to demonstrate playwright ap
 ### Improvements planned
 * Write re-usable functions for GET, POST and PUT methods (create payload with dynamic values), verifications
 * Create a environment file to maintain the baseurl for diff environments and other few common fields
+
+### Playwright HTML Test Report
+![Playwright HTML Test Report](./assets/html-test-report.PNG?raw=true "Playwright HTML Test Report")
