@@ -1,11 +1,11 @@
 ---
-# Playwright API Testing Setup Guide
+# Playwright API Testing
 ---
 
 This is a Playwright API testing framework designed to demonstrate playwright api testing for clearpoint assessment
 
-## Features of this framework
-* Playwright API Testing
+# Application under test
+In this project, the API under test is running on http://localhost:3002/. 
 
 ## Getting started
 
@@ -33,9 +33,14 @@ This is a Playwright API testing framework designed to demonstrate playwright ap
 ## To get the Playwright HTML report from terminal
 * Go to the Project root directory and run command: `npx playwright show-report`
 
+### Playwright HTML Test Report
+![Playwright HTML Test Report](./assets/html-test-report.PNG?raw=true "Playwright HTML Test Report")
+
+### Test Scenarios Covered
+* POST method - all status codes 201,400,409 
+* GET method - all status codes 200, 404
+* PUT method - all status codes 204,400,404
+
 ### Improvements planned
 * Write re-usable functions for GET, POST and PUT methods (create payload with dynamic values), verifications
 * Create a environment file to maintain the baseurl for diff environments and other few common fields
-
-### Playwright HTML Test Report
-![Playwright HTML Test Report](./assets/html-test-report.PNG?raw=true "Playwright HTML Test Report")
